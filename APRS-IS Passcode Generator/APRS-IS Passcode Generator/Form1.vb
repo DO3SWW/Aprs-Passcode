@@ -54,7 +54,7 @@ Public Class Form1
 
     'Sub to open the about website with the default browser
     Private Sub LinkLabelWeb_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabelWeb.LinkClicked
-        Process.Start("https://github.com/do3sww")
+        Process.Start("https://github.com/DO3SWW/Aprs-Passcode")
     End Sub
 
 #End Region
