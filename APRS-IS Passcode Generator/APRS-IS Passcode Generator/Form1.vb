@@ -21,7 +21,7 @@ Public Class Form1
     Private Sub CheckCall()
         Dim callsign As String()
         'check if it is a valid callsign, ignore case
-        If (Regex.IsMatch(TextBoxCallsign.Text, "^[a-z]+\d[a-z]+[-1-9]*$", RegexOptions.IgnoreCase)) Then
+        If (Regex.IsMatch(TextBoxCallsign.Text, "^[a-z]+\d[a-z]+(?([-])[-][0-9]+$|$)", RegexOptions.IgnoreCase)) Then
             'splitt the callsign at -
             callsign = TextBoxCallsign.Text.Split("-")
             'only lowercases are allowed
