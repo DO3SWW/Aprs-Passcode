@@ -9,6 +9,10 @@ How it works
 -------------
 You provide a Callsign, the tool checks the validity of the callsign and generates the passcode to authenticate at the APRS Network.
 
+Download
+--------
+Here can you download the latest compiled version: https://do3sww.de/aprs-passcode/APRS-IS_Passcode_Generator.exe
+
 License
 -------
 GPLv3
