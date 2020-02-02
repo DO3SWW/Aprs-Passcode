@@ -11,7 +11,7 @@ You provide a Callsign, the tool checks the validity of the callsign and generat
 
 Download
 --------
-Here can you download the latest compiled version: https://do3sww.de/aprs-passcode/APRS-IS_Passcode_Generator.exe
+Here can you download the latest compiled version: https://github.com/DO3SWW/Aprs-Passcode/releases/download/release_v1.0/APRS-IS_Passcode_Generator.exe
 
 License
 -------
